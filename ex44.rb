@@ -15,5 +15,5 @@ end
 dad = Parent.new()
 son = Child.new()
 
-dad.implicit()
-son.implicit()
+dad.override()
+son.override()
