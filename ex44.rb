@@ -1,11 +1,15 @@
 class Parent
 
-  def implicit ()
-    puts "PARENT implicit ()"
+  def override ()
+    puts "PARENT override ()"
   end
 end
 
 class Child < Parent
+
+  def override()
+    puts "CHILD override()"
+  end
 end
 
 dad = Parent.new()
